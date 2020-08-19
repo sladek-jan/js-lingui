@@ -22,7 +22,7 @@ aliases:
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:latest-node-browsers-legacy
+      - image: circleci/openjdk:latest-node-browsers
 
     steps:
       - checkout
